@@ -1,7 +1,6 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('hr_interface.urls')),  # Add this line
+    path('', views.job_description, name='job_description'),
 ]
