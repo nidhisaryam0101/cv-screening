@@ -1,0 +1,8 @@
+Django
+PyPDF2
+pymupdf  # for fitz (PyMuPDF)
+python-docx
+spacy
+numpy
+scikit-learn
+sentence-transformers
